@@ -16,7 +16,7 @@ export class Marble {
   skill: Skills = Skills.None;
   isActive: boolean = false;
 
-  private _skillRate = 0.0005;
+  private _skillRate = 10;
   private _coolTime = 5000;
   private _maxCoolTime = 5000;
   private _stuckTime = 0;
